@@ -1,0 +1,44 @@
+data:
+    dir: "./data/PD.csv"
+
+    nominal_vars: ['Sex']
+
+    ordinal_vars: ['Age']
+
+    continuous_vars: ['MDVP.Fo.Hz.', 'MDVP.Fhi.Hz.', 'MDVP.Flo.Hz.', 'MDVP.Jitter...',
+                      'MDVP.Jitter.Abs.', 'MDVP.RAP', 'MDVP.PPQ', 'Jitter.DDP',
+                      'MDVP.Shimmer', 'MDVP.Shimmer.dB.', 'Shimmer.APQ3', 'Shimmer.APQ5',
+                      'MDVP.APQ', 'Shimmer.DDA', 'NHR', 'HNR', 'RPDE', 'DFA',
+                      'spread1', 'spread2', 'D2', 'PPE']
+
+    labels: ['status', 'Stage']
+
+save:
+    plt_save_folder: "./plt_plots"
+
+    scree_plot_name: "scree_plot.png"
+
+    ls_pca_lr_acc_plot: "ls_pca_lr_acc_plot.png"
+
+    ls_pca_lda_acc_plot: "ls_pca_lda_acc_plot.png"
+
+    ls_ksvm_acc_plot: "ls_ksvm_acc_plot.png"
+
+    ls_pca_ksvm_acc_plot: "ls_pca_ksvm_acc_plot.png"
+
+    ls_nn_acc_plot : "ls_nn_acc_plot.png"
+
+    nn_train_loss_plot: "nn_train_loss_plot.png"
+
+    corr_heatmap_plot: "corr_heatmap_plot.png"
+
+    corr_heatmap_after_pca_plot: "corr_heatmap_after_pca_plot.png"
+
+    pca_biplot: "pca_biplot.png"
+
+    2d_pc_scatter_plot: "2d_pc_scatter_plot.png"
+
+    2d_nn_scatter_plot: "2d_nn_scatter_plot.png"
+
+    dpi: 1000
+
